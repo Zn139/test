@@ -6,6 +6,8 @@ Router.prototype.push = function push (location) {
   return originalPush.call(this, location).catch(err => err)
 }// 冲突怎么没了
 // zaicijianzhengshqiji 
+
+
 Vue.use(Router)
 const home = () => import('@/home/index')
 const nav = () => import('@/layout/navbar')

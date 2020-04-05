@@ -4,7 +4,8 @@ import Router from 'vue-router'
 const originalPush = Router.prototype.push
 Router.prototype.push = function push (location) {
   return originalPush.call(this, location).catch(err => err)
-}// 冲突怎么没了
+}、库哪款款aaaaaaaaaaaaaaaaaaaaaaaaaaa
+// 冲突怎么没了
 //见证奇迹的时刻
 Vue.use(Router)
 const home = () => import('@/home/index')

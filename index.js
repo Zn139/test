@@ -19,6 +19,9 @@ const aboutUs = () => import('@/my/aboutUs')
 // 给我冲突，使劲冲突
 // 给我冲突，使劲冲突
 // 给我冲突，使劲冲突
+// 给我冲突，使劲冲突
+// 给我冲突，使劲冲突
+// 给我冲突，使劲冲突
 export default new Router({
   routes: [
     {
